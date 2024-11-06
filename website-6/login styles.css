@@ -1,0 +1,39 @@
+/* Login Page Styles */
+body, html {
+    height: 100%;
+    font-family: 'Arial', sans-serif;
+}
+
+.login-section {
+    background-image: url('login-background.jpg'); /* Replace with an actual background image path */
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.login-box {
+    max-width: 400px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent white background */
+}
+
+.login-box h2 {
+    color: #b07c5c; /* Elegant gold tone for heading */
+    font-weight: bold;
+}
+
+.login-box .btn-primary {
+    background-color: #b07c5c;
+    border: none;
+}
+
+.login-box .btn-primary:hover {
+    background-color: #a06d53;
+}
+
+.login-box a {
+    color: #b07c5c;
+}
+
+.login-box a:hover {
+    color: #a06d53;
+}
